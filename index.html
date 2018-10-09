@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title> 
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h2>
+                Угадай город
+            </h2>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="controlsWrap">
+                <div id="levelSelect">
+                </div>
+                <div id="selectsWrap">
+                    <p id="chooseRow">
+                        Выбери ряд
+                    </p>
+                    <p id="chooseColumn">
+                        Выбери элемент
+                    </p>
+                    <button id="showTile">
+                        Открыть плитку
+                    </button>
+                </div>
+                <div class="quessWrap">
+                    <input type="text" id="quess" placeholder="Введи название города">
+                    <button id="quessConfirm">
+                        OK
+                    </button>
+                </div>
+            </div>
+            <div id="allMosaicsWrap">
+                <img id="mosaic">
+                <div id="tilesWrap">
+                </div>
+            </div>
+            <div id="googlemap">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb" 
+                width="100%" height="600" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>            
+            </div>
+        </div>        
+    </main>
+    <footer>
+        <div class="wrapper">
+        </div>
+    </footer> 
+   <script type="text/javascript" src="project.js"></script>   
+</body>
+</html>
